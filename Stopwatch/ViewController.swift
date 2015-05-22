@@ -6,6 +6,9 @@
 //  Copyright (c) 2015 iDev. All rights reserved.
 //
 
+/* TO DO
+	Add top button to the same toolbar and adjust their positions in the code
+*/
 import UIKit
 
 class ViewController: UIViewController {
