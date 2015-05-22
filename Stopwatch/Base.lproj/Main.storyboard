@@ -17,12 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="59i-xV-33f">
-                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
-                                <items>
-                                    <barButtonItem systemItem="play" id="l5O-c6-iHq"/>
-                                </items>
-                            </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f2v-Sp-3It">
                                 <rect key="frame" x="100" y="239" width="120" height="90"/>
                                 <constraints>
@@ -45,22 +39,33 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="59i-xV-33f">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="play" id="l5O-c6-iHq"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="f2v-Sp-3It" secondAttribute="centerY" id="482-7W-4JC"/>
                             <constraint firstItem="hkd-vX-Wqr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="KET-Bb-WJK"/>
-                            <constraint firstItem="hkd-vX-Wqr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="KJL-da-soG"/>
                             <constraint firstItem="hkd-vX-Wqr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="MlB-4H-wzl"/>
+                            <constraint firstItem="hkd-vX-Wqr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="N2A-9E-iMi"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hkd-vX-Wqr" secondAttribute="trailing" constant="-16" id="RIC-Sp-8mM"/>
                             <constraint firstItem="hkd-vX-Wqr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="RRB-gU-O0U"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="59i-xV-33f" secondAttribute="bottom" id="UJ4-j1-qvo"/>
                             <constraint firstAttribute="centerX" secondItem="hkd-vX-Wqr" secondAttribute="centerX" id="VLz-rD-hd7"/>
                             <constraint firstAttribute="centerX" secondItem="hkd-vX-Wqr" secondAttribute="centerX" id="ZAx-qo-G2V"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hkd-vX-Wqr" secondAttribute="trailing" constant="-16" id="cSf-Nv-afd"/>
                             <constraint firstItem="hkd-vX-Wqr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ejN-Cy-G2o"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="59i-xV-33f" secondAttribute="bottom" id="gjy-jJ-Y57"/>
+                            <constraint firstItem="hkd-vX-Wqr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="mxU-QM-P4V"/>
+                            <constraint firstItem="59i-xV-33f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="neV-NY-fy5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hkd-vX-Wqr" secondAttribute="trailing" constant="-16" id="psY-YL-Gwt"/>
                             <constraint firstAttribute="centerX" secondItem="f2v-Sp-3It" secondAttribute="centerX" id="sxQ-FF-Jdl"/>
                             <constraint firstItem="hkd-vX-Wqr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="uw7-pi-wUU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="59i-xV-33f" secondAttribute="trailing" constant="-16" id="yBL-eW-4S9"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
